@@ -13,6 +13,6 @@ storiesOf('Button', module)
   .add('with text', withNotes('Example note on basic button')(() => (
     <Button onClick={action('clicked')}>{text('Child: ', 'Hello Button')}</Button>
   )))
-  .add('with some emoji', () => (
+  .add('with some emoji', withNotes('Example note on emoji button')(() => (
     <Button onClick={action('clicked')}><span role="img" aria-label="so cool">😀 😎 👍 💯</span></Button>
-  ));   
+  )));   
