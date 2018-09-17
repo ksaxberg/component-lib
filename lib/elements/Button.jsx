@@ -1,7 +1,12 @@
 // @flow
 import * as React from 'react';
 
-export default class Button extends React.PureComponent {
+type Props = {
+  onClick: Function,
+  children: React.Node
+}
+
+export default class Button extends React.PureComponent<Props> {
   style = {
     cursor: 'pointer',
     background: 'lime',
