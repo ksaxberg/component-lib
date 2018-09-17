@@ -6,6 +6,9 @@ This is a project template meant to help you get started quickly developing comp
 - Design, develop, and document components with [Storybook](https://storybook.js.org/)
 - Make cool things quickly
 
+## Quick-Start
+Clone the repo, then run `npm run storybook` and navigate to `localhost:9001`. You should see storybook running with a single button component. You can check out `lib/elements/index.js` to see how you can create stories with components that you create.
+
 ## Setup
 ### Package.json
 Make sure to change the name, version, description, and author to match your new project. Also be sure to review the license and code of conduct to see if they match what your project needs.
