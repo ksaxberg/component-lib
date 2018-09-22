@@ -7,7 +7,8 @@ This is a project template meant to help you get started quickly developing comp
 - Make cool things quickly
 
 ## Quick-Start
-Clone the repo, then run `npm run storybook` and navigate to `localhost:9001`. You should see storybook running with a single button component. You can check out `lib/elements/index.js` to see how you can create stories with components that you create.
+If you don't have node and npm, go [install it now](https://nodejs.org/en/)
+Clone the repo, then run `npm install`, then run `npm run storybook` and navigate to `localhost:9001`. You should see storybook running with a single button component. You can check out `lib/elements/index.js` to see how you can create stories with components that you create.
 
 ## Setup
 ### Package.json
