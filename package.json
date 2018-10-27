@@ -4,7 +4,7 @@
   "description": "a test component library",
   "main": "build/index.js",
   "scripts": {
-    "build": "babel lib -d build",
+    "build": "babel lib -d build --copy-files",
     "lint": "eslint lib/**; exit 0",
     "lint:watch": "esw -w lib/**",
     "flow": "flow",
@@ -40,7 +40,7 @@
     "eslint-plugin-react": "^7.11.1",
     "eslint-watch": "^4.0.2",
     "flow-bin": "^0.81.0",
-    "react": "^16.5.1",
-    "react-dom": "^16.5.1"
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0"
   }
 }

@@ -1,3 +1,6 @@
 .babelrc
+.storybook
+stories
+media
 lib
 CODE_OF_CONDUCT.md
